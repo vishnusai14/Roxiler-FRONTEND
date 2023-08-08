@@ -1,0 +1,31 @@
+.container {
+  width: 95%;
+}
+
+.headers {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.header-selected {
+  border-radius: 10px;
+  animation-name: select;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes select {
+  from {
+    background-color: #edf6f6;
+  }
+  to {
+    background-color: #f8df8c;
+  }
+}
