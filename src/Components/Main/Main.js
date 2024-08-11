@@ -28,7 +28,7 @@ class Main extends React.Component {
                 : ""
             }`}
           >
-            <p>Transaction New</p>
+            <p>Transaction Updated</p>
           </div>
 
           <div
@@ -41,7 +41,7 @@ class Main extends React.Component {
                 : ""
             }`}
           >
-            <p>Statistics New</p>
+            <p>Statistics Updated</p>
           </div>
 
           <div
@@ -52,7 +52,7 @@ class Main extends React.Component {
               this.state.selectedHeader === "Bar" ? "header-selected" : ""
             }`}
           >
-            <p>Bar Chart New</p>
+            <p>Bar Chart Updated</p>
           </div>
 
           <div
@@ -63,7 +63,7 @@ class Main extends React.Component {
               this.state.selectedHeader === "Pie" ? "header-selected" : ""
             }`}
           >
-            <p>Pie Chart New</p>
+            <p>Pie Chart Updated</p>
           </div>
         </div>
 
